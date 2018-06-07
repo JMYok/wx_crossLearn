@@ -1,0 +1,7 @@
+<form bindsubmit='inputContent'>
+<view>
+<input placeholder="名称"  auto-focus name='content1'></input>
+<textarea placeholder="描述内容"class='content' name='content2'></textarea>
+</view>
+<button type="default" form-type='submit'> 创 建</button>
+</form>

@@ -1,0 +1,9 @@
+page{
+  background-color: #eee;
+  color:            black;
+  font-family:       'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+progress{
+  position:         absolute;
+  bottom:           0;
+  } 

@@ -1,0 +1,7 @@
+<form>
+<view>
+<textarea placeholder="正面内容" bindinput="inputContent1" class='content' auto-focus></textarea>
+<textarea placeholder="反面内容" bindinput="inputContent2" class='content' ></textarea>
+</view>
+<button type="default" bindtap="create" form-type='submit'> 创 建</button>
+</form>

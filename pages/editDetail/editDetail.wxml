@@ -1,0 +1,7 @@
+<form>
+<view>
+<textarea placeholder="编辑正面内容" bindinput="editContent1" class='content' auto-focus></textarea>
+<textarea placeholder="编辑反面内容" bindinput="editContent2" class='content' ></textarea>
+</view>
+<button type="default" bindtap="finish" form-type='submit'> 完 成</button>
+</form>

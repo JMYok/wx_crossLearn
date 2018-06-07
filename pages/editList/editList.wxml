@@ -1,0 +1,7 @@
+<form bindsubmit='finish_edit'>
+<view>
+<input placeholder="编辑卡组名称" name='name' class='content' value='{{title}}' auto-focus></input>
+<textarea placeholder="编辑卡组描述" name='description' value='{{description}}' class='content' ></textarea>
+</view>
+<button type="default" form-type='submit'>完成编辑</button>
+</form>

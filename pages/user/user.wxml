@@ -1,0 +1,21 @@
+<view class='userinfo' wx:if='{{authorization}}'>
+    <image class="userinfo-avatar" src="{{avatar}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{name}}</text>
+</view>
+<view wx:else>
+    <button id='a_button' bindtap='authorize'>授权获取头像姓名</button>
+</view>
+
+<radio-group  bindchange='radioChange'>
+<view class='borderTop'></view>
+<view class='cardSetList' wx:for='{{cardList}}' wx:key="key">
+  <view class='content' bindtap='check' bindlongpress='edit' data-title='{{item.name}}' data-description='{{item.description}}' data-index='{{index}}'>
+    <text>{{item.name}}</text>
+    <radio value='{{index}}'></radio>
+  </view>
+</view>
+<view class='cardSetList' bindtap='addList'>
+<text style='color:#0384D5;text-align:center;' class='content'>添加分组</text>
+</view>
+</radio-group>
+    

@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/addList/addList",
+    "pages/addDetail/addDetail",
+    "pages/editDetail/editDetail",
+    "pages/editList/editList"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0384D5"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text":"所有卡片",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_selected.png"
+      },
+      {
+        "text": "我的卡组",
+        "pagePath": "pages/user/user",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_selected.png"
+      }
+    ]
+  }
+}

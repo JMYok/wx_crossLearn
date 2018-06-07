@@ -1,0 +1,49 @@
+<!--无卡片创建时  -->
+<view class='container' wx:if="{{cards.length==0}}">
+<progress percent="100"  style='width:100%' color='#0384D5' />
+<swiper  style="height:845rpx;width:100%;" current='{{cards.length}}'>
+<swiper-item  wx:for="{{cards}}" wx:key="key" duration="800">
+<view class="card">
+<text>{{item.content1}}</text>  
+<text>{{item.content2}}</text>
+</view>  
+</swiper-item>
+<swiper-item>
+<view class='adjust'>
+<view class='icon-add' bindtap='addCard'>
+</view>
+</view>
+</swiper-item>
+</swiper>
+</view>
+
+<!--有卡片创建时  -->
+<view class='container' wx:else>
+<progress percent="100"  style='width:100%' color='#0384D5' />
+<swiper  style="height:845rpx;width:100%;" current='{{cards.length-1}}'>
+<swiper-item  wx:for="{{cards}}" wx:key="key" duration="800">
+<view class="card"  bindtap='rotate'  animation="{{animationData}}" data-choice='{{choice}}'>
+
+<view style='height:10%'></view>
+<view class='content_body' bindlongpress='edit'>
+<view wx:if="{{choice == 1}}">
+<text class='content'>{{item.content1}}</text>  
+</view>
+<view wx:else>
+<text class='content'>{{item.content2}}</text>
+</view>
+</view>
+<view style='height:10%'></view>
+
+<icon type="cancel" size="25" color="red" catchtap='delete'/> 
+</view>
+</swiper-item>
+<swiper-item>
+<view class='adjust'>
+<view class='icon-add' bindtap='addCard'>
+</view>
+</view>
+</swiper-item>
+</swiper>
+
+</view>

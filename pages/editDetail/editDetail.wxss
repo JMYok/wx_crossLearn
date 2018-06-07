@@ -1,0 +1,15 @@
+.content{
+  margin: auto; 
+  width: 97%;
+  height: 200rpx;
+  margin-top: 20rpx; 
+  margin-bottom: 20rpx;  
+  border-radius: 4px;  
+  background: #fff;  
+}
+button{
+  margin: auto; 
+  width: 97%;
+  color: #fff;
+  background-color: #fff;
+}
