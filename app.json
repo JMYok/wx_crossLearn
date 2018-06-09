@@ -8,7 +8,8 @@
     "pages/editList/editList"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#0384D5"
+    "navigationBarBackgroundColor": "#0384D5",
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "list": [

@@ -1,7 +1,7 @@
-<form>
+<form bindsubmit='finish'>
 <view>
-<textarea placeholder="编辑正面内容" bindinput="editContent1" class='content' auto-focus></textarea>
-<textarea placeholder="编辑反面内容" bindinput="editContent2" class='content' ></textarea>
+<textarea placeholder="编辑正面内容" name='front' class='content' value='{{front}}' auto-focus></textarea>
+<textarea placeholder="编辑反面内容" name='behind' bindinput="behind" class='content' value='{{behind}}' ></textarea>
 </view>
-<button type="default" bindtap="finish" form-type='submit'> 完 成</button>
+<button type="default" form-type='submit'> 完 成</button>
 </form>

@@ -9,9 +9,9 @@
 <radio-group  bindchange='radioChange'>
 <view class='borderTop'></view>
 <view class='cardSetList' wx:for='{{cardList}}' wx:key="key">
-  <view class='content' bindtap='check' bindlongpress='edit' data-title='{{item.name}}' data-description='{{item.description}}' data-index='{{index}}'>
+  <view class='content' bindtap='check' bindlongpress='edit' data-title='{{item.name}}' data-description='{{item.description}}' data-index='{{index}}' data-id='{{item.id}}'>
     <text>{{item.name}}</text>
-    <radio value='{{index}}'></radio>
+    <radio value='{{item.id}}'></radio>
   </view>
 </view>
 <view class='cardSetList' bindtap='addList'>

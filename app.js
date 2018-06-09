@@ -5,7 +5,6 @@ App({
       success: function (res) {
         if (res.code) {
           var JSCODE = res.code;
-          console.log(JSCODE);
           wx.request({
             url: 'http://miniprogram.test/api/authorizations',
             method: 'POST',
@@ -22,3 +21,4 @@ App({
       }
     })}  
 })
+

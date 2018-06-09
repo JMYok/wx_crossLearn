@@ -5,6 +5,7 @@ Page({
 
     if (content1 && content2) {
       if(content1.length < 20 || content2.length<200){
+        wx.showLoading()
         wx.request({
           url: 'http://miniprogram.test/api/categories/new_category',
             method:'POST',
@@ -15,8 +16,9 @@ Page({
             header:{
               Authorization: 'Bearer ' + wx.getStorageSync('token')
             },  
-          success:function(res){  
+          success:function(res){
             var cardset = {
+              id:res.data.id,
               name: content1,
               description: content2,
             };
@@ -26,11 +28,14 @@ Page({
           }
         })
         setTimeout(function () {
+          wx.navigateBack();
+        }, 3000)
+        setTimeout(function(){
           wx.showToast({
             title: '您的卡组已创建',
           })
-        }, 500)
-        wx.navigateBack();
+        },3500)
+       
       }else{
         wx.showToast({ title: '标题不能超过20字，内容不能超过200字哦~', icon: 'none' });
         return;

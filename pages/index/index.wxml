@@ -1,3 +1,4 @@
+
 <!--无卡片创建时  -->
 <view class='container' wx:if="{{cards.length==0}}">
 <progress percent="100"  style='width:100%' color='#0384D5' />
@@ -22,20 +23,19 @@
 <progress percent="100"  style='width:100%' color='#0384D5' />
 <swiper  style="height:845rpx;width:100%;" current='{{cards.length-1}}'>
 <swiper-item  wx:for="{{cards}}" wx:key="key" duration="800">
-<view class="card"  bindtap='rotate'  animation="{{animationData}}" data-choice='{{choice}}'>
+<view class="card"  bindtap='rotate'  animation="{{animationData}}" data-choice='{{choice}}' >
 
 <view style='height:10%'></view>
-<view class='content_body' bindlongpress='edit'>
+<view class='content_body' bindlongpress='edit' data-front='{{item.front}}' data-behind='{{item.behind}}' data-id='{{item.id}}' data-index='{{index}}'>
 <view wx:if="{{choice == 1}}">
-<text class='content'>{{item.content1}}</text>  
+<text class='content'>{{item.front}}</text>  
 </view>
 <view wx:else>
-<text class='content'>{{item.content2}}</text>
+<text class='content'>{{item.behind}}</text>
 </view>
 </view>
 <view style='height:10%'></view>
-
-<icon type="cancel" size="25" color="red" catchtap='delete'/> 
+<icon type="cancel" size="25" color="red" catchtap='delete' data-id='{{item.id}}'/> 
 </view>
 </swiper-item>
 <swiper-item>
