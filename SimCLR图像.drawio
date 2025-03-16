@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="BeTOv0LpF-9Sh6fO2DPC">
-    <mxGraphModel dx="779" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1137" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,10 +38,10 @@
         <mxCell id="tTBhliybLuTIgKMnyGti-7" value="$$x$$" style="text;whiteSpace=wrap;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="334" y="449" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tTBhliybLuTIgKMnyGti-13" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;随机增强&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontStyle=0;rotation=-45;" parent="1" vertex="1">
+        <mxCell id="tTBhliybLuTIgKMnyGti-13" value="&lt;span&gt;&lt;font&gt;随机增强&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontStyle=0;rotation=-45;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="351" y="428" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q50XB33TsU1wGVF2jd2y-1" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;随机增强&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontStyle=0;rotation=45;" vertex="1" parent="1">
+        <mxCell id="q50XB33TsU1wGVF2jd2y-1" value="&lt;span&gt;&lt;font&gt;随机增强&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontStyle=0;rotation=45;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="247" y="428" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q50XB33TsU1wGVF2jd2y-2" value="$$h_i$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1" vertex="1" parent="1">
@@ -93,7 +93,7 @@
           <mxGeometry x="215" y="198" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q50XB33TsU1wGVF2jd2y-33" value="$$z_j$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="392" y="196" width="70" height="30" as="geometry" />
+          <mxGeometry x="392" y="198" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q50XB33TsU1wGVF2jd2y-35" value="&lt;font&gt;最大化一致性&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="285" y="180" width="110" height="30" as="geometry" />
