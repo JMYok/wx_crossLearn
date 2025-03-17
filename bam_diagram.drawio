@@ -16,7 +16,7 @@
         <mxCell id="SmQvLXDjHVMTXZJUigtl-4" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=east;flipV=0;flipH=1;" parent="1" vertex="1">
           <mxGeometry x="189" y="36.5" width="75" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="SmQvLXDjHVMTXZJUigtl-7" value="全局平均池化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="SmQvLXDjHVMTXZJUigtl-7" value="全局平均池化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="72" y="34" width="109" height="22" as="geometry" />
         </mxCell>
         <mxCell id="SmQvLXDjHVMTXZJUigtl-9" value="1x1&lt;div&gt;卷积&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=0" parent="1" vertex="1">
