@@ -61,8 +61,8 @@
         <mxCell id="MaLlGU65rQBpSgFHFczV-23" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;$$x_0^{\text{key}} \quad x_1^{\text{key}} \quad x_2^{\text{key}} \dots$$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="410" y="525" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MaLlGU65rQBpSgFHFczV-24" value="&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;\(x^{query}\)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="220" y="525" width="60" height="30" as="geometry" />
+        <mxCell id="MaLlGU65rQBpSgFHFczV-24" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;\(x^{query}\)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="210" y="525" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
