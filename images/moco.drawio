@@ -31,8 +31,8 @@
         <mxCell id="MaLlGU65rQBpSgFHFczV-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="410" y="440" width="30" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MaLlGU65rQBpSgFHFczV-11" value="$$x_0^{\text{key}} \quad x_1^{\text{key}} \quad x_2^{\text{key}} \dots$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="155" y="520" width="580" height="40" as="geometry" />
+        <mxCell id="MaLlGU65rQBpSgFHFczV-11" value="$$x_0^{\text{key}} \quad x_1^{\text{key}} \quad x_2^{\text{key}} \dots$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=18;spacingTop=0;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="525" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaLlGU65rQBpSgFHFczV-12" value="$$k_0 \quad k_1 \quad k_2 \quad \dots$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="287" y="361" width="320" height="40" as="geometry" />
