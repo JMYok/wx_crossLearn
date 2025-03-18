@@ -46,7 +46,7 @@
         <mxCell id="fkffijeyhj4ibdIJJxAR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=3;" parent="1" source="fkffijeyhj4ibdIJJxAR-3" target="fkffijeyhj4ibdIJJxAR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uA4hNmV2qcDG2vF6_LE--26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.456;entryY=-0.033;entryDx=0;entryDy=0;endSize=3;entryPerimeter=0;" parent="1" source="fkffijeyhj4ibdIJJxAR-3" target="aMgExQx1SwbY3m5h86aL-29" edge="1">
+        <mxCell id="uA4hNmV2qcDG2vF6_LE--26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.431;entryY=-0.033;entryDx=0;entryDy=0;endSize=3;entryPerimeter=0;jumpSize=8;startSize=3;" parent="1" source="fkffijeyhj4ibdIJJxAR-3" target="aMgExQx1SwbY3m5h86aL-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fkffijeyhj4ibdIJJxAR-3" value="ResNet" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
