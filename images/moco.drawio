@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MaLlGU65rQBpSgFHFczV-14" value="负样本特征队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="285" y="400" width="140" height="30" as="geometry" />
+          <mxGeometry x="430" y="401" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaLlGU65rQBpSgFHFczV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MaLlGU65rQBpSgFHFczV-4" target="MaLlGU65rQBpSgFHFczV-6">
           <mxGeometry relative="1" as="geometry">
