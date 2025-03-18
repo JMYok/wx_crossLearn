@@ -208,7 +208,7 @@
         <mxCell id="uA4hNmV2qcDG2vF6_LE--43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fkffijeyhj4ibdIJJxAR-61" target="uA4hNmV2qcDG2vF6_LE--41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fkffijeyhj4ibdIJJxAR-61" value="元学习" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="fkffijeyhj4ibdIJJxAR-61" value="元学习" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;fontFamily=SimSun;" parent="1" vertex="1">
           <mxGeometry x="448" y="403.75" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fkffijeyhj4ibdIJJxAR-64" value="" style="endArrow=classic;html=1;rounded=0;endSize=3;" parent="1" edge="1">
