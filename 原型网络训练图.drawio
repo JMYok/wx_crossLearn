@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="PzQrS1S_O44dtLylf9Z6">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-1" target="uWTU5qwSDfiLoeyA6UE3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-1" value="支撑集" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-2" target="uWTU5qwSDfiLoeyA6UE3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-2" value="查询集" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-3" target="uWTU5qwSDfiLoeyA6UE3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-3" target="uWTU5qwSDfiLoeyA6UE3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-3" value="特征提取网络" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-6" target="uWTU5qwSDfiLoeyA6UE3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-13" value="取平均值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=SimSun;" vertex="1" connectable="0" parent="uWTU5qwSDfiLoeyA6UE3-9">
+          <mxGeometry x="-0.08" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-6" value="支撑集&lt;div&gt;特征向量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-7" target="uWTU5qwSDfiLoeyA6UE3-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="370" />
+              <mxPoint x="420" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-17" value="欧式距离" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=SimSun;" vertex="1" connectable="0" parent="uWTU5qwSDfiLoeyA6UE3-16">
+          <mxGeometry x="0.5429" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-7" value="查询集&lt;br&gt;特征向量" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-8" value="原型中心" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uWTU5qwSDfiLoeyA6UE3-18" target="uWTU5qwSDfiLoeyA6UE3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="550" />
+              <mxPoint x="200" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-21" value="反向传播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=SimSun;fontSize=15;" vertex="1" connectable="0" parent="uWTU5qwSDfiLoeyA6UE3-20">
+          <mxGeometry x="0.2571" y="1" relative="1" as="geometry">
+            <mxPoint y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-18" value="损失函数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uWTU5qwSDfiLoeyA6UE3-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374.5" y="470" as="sourcePoint" />
+            <mxPoint x="374.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
