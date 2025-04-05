@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.6">
   <diagram name="Page-1" id="xW-WMZ9OCgLaWtX6TRYx">
-    <mxGraphModel dx="838" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HYoXXiCOUGap_etAaGFY-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.771;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;opacity=40;" edge="1" parent="1" source="HYoXXiCOUGap_etAaGFY-31" target="HYoXXiCOUGap_etAaGFY-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HYoXXiCOUGap_etAaGFY-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontFamily=SimSun;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=40;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="189" y="317" width="373" height="60" as="geometry" />
         </mxCell>
@@ -58,6 +61,17 @@
         <mxCell id="HYoXXiCOUGap_etAaGFY-19" value="Q" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="440" y="520" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="HYoXXiCOUGap_etAaGFY-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="HYoXXiCOUGap_etAaGFY-25" target="HYoXXiCOUGap_etAaGFY-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="370" />
+              <mxPoint x="580" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYoXXiCOUGap_etAaGFY-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYoXXiCOUGap_etAaGFY-25" target="HYoXXiCOUGap_etAaGFY-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HYoXXiCOUGap_etAaGFY-25" value="缩放点积注意力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontFamily=SimSun;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="160" y="340" width="373" height="60" as="geometry" />
         </mxCell>
@@ -88,6 +102,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HYoXXiCOUGap_etAaGFY-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.871;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;opacity=40;" edge="1" parent="1" source="HYoXXiCOUGap_etAaGFY-14" target="HYoXXiCOUGap_etAaGFY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYoXXiCOUGap_etAaGFY-46" value="\(h\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="562" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYoXXiCOUGap_etAaGFY-48" value="拼接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=SimSun;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="294" y="250" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HYoXXiCOUGap_etAaGFY-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.64;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;textOpacity=70;opacity=60;" edge="1" parent="1" source="HYoXXiCOUGap_etAaGFY-30" target="HYoXXiCOUGap_etAaGFY-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
